@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html class='default' dir='ltr'>
+<head>
+    <meta http-equiv="expires" content="0">
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=Edge,chrome=1' />
+
+    <meta name='application-name' content='CrossMusic'>
+    <title>Pokedex</title>
+
+    <!-- chunk_app_css -->
+    <!-- /chunk_app_css -->
+
+    <meta name='viewport' content='width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+    <meta name='apple-mobile-web-app-title' content='CrossClearance'>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:200,300,400,500,600&amp;subset=cyrillic" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"
+  />
+
+</head>
+<body data-version='1' id="body">
+<div id='pace-loader' class='pace-small'></div>
+<div id='app-container'>
+    <!-- instant-spinner -->
+    <style>
+      .instant-spinner-wrapper-out {
+        display: table;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .instant-spinner-wrapper-inner {
+        display: table-cell;
+        vertical-align: middle;
+      }
+      .instant-spinner {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto;
+      }
+      .instant-spinner svg {
+        -webkit-animation: preloader 2s infinite linear;
+        -moz-animation: preloader 2s infinite linear;
+        -ms-animation: preloader 2s infinite linear;
+        -o-animation: preloader 2s infinite linear;
+        animation: preloader 2s infinite linear;
+      }
+
+      @-webkit-keyframes preloader {
+        to { -webkit-transform: rotate(360deg); }
+      }
+
+      @-moz-keyframes preloader {
+        to { -moz-transform: rotate(360deg); }
+      }
+
+      @-ms-keyframes preloader {
+        to { -ms-transform: rotate(360deg); }
+      }
+
+      @-o-keyframes preloader {
+        to { -o-transform: rotate(360deg); }
+      }
+
+      @keyframes preloader {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+
+    <div class="instant-spinner-wrapper-out">
+      <div class="instant-spinner-wrapper-inner">
+        <div class="instant-spinner">
+          <svg width="70" height="70" xmlns="http://www.w3.org/2000/svg">
+            <g>
+              <g fill-rule="evenodd" fill="none">
+                <g stroke="#DDD1E0">
+                  <g stroke="null">
+                    <circle stroke="null" r="5.564516" cy="6.166667" cx="35" />
+                    <circle stroke="null" r="5.564516" cy="28.833333" cx="63.935485" />
+                    <circle stroke="null" r="5.564516" cy="62.833333" cx="52.806452" />
+                    <circle stroke="null" r="5.564516" cy="62.833333" cx="17.193549" />
+                    <circle stroke="null" r="5.564516" cy="28.833333" cx="6.064516" />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <!-- /instant-spinner -->
+  </div>
+</body>
+
+<!-- environment -->
+
+<!-- chunk_app_js -->
+<script defer src="/js/app.bundle.js"></script>
+<!-- /chunk_app_js -->
+
+</html>
